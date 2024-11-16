@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinalProject_Hosme"
+        tools:targetApi="31">
+        <activity
+            android:name="com.example.Giang.hosme.DoctorInfor"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Hân.hosme.DetailNotification"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Thảo.hosme.Choncosoyte"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Hân.hosme.thongbao"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Hân.hosme.taomatkhau"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Hân.hosme.nhapthongtin"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Hân.hosme.nhapsdt"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Giang.hosme.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Hân.hosme.nhapmatkhau"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Hân.hosme.dialog_forgot_password"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Hân.hosme.datmkmoi"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Thảo.hosme.Chonhoso"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Thảo.hosme.Xacnhanthongtin"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Thảo.hosme.DetailCoso3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Thảo.hosme.DetailCoso2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Thảo.hosme.DetailCoso1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Thảo.hosme.Chonthongtinkham4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Thảo.hosme.Chonthongtinkham3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Thảo.hosme.Chonlich"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Trân.hosme.MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Thảo.hosme.Chonchuyenkhoa"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Thảo.hosme.Chonbacsi"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Chi.hosme.ProfileDetail"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Chi.hosme.PaymentMethods"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Chi.hosme.PaymentListBillDetail"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Chi.hosme.PaymentListBill"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Chi.hosme.PaymentDebitCard"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Chi.hosme.PaymentCashDialog"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Chi.hosme.PaymentCardDetailedBank"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Chi.hosme.MainProfile"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Chi.hosme.ForgetCode"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Chi.hosme.EnterCode"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Chi.hosme.EditProfile"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Chi.hosme.DialogDeleteProfile"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Chi.hosme.Dialog_Add_Profile"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Chi.hosme.AddProfile1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Chi.hosme.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Trân.hosme.MainActivity9"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Trân.hosme.MainActivity8"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Trân.hosme.MainActivity7"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Trân.hosme.MainActivity6"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Trân.hosme.MainActivity5"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.example.Trân.hosme.MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Chi.hosme.ListProfiles"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Trân.hosme.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Trân.hosme.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Trân.hosme.ImagePersonal"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Trân.hosme.DetailQues"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Giang.hosme.ListMedialRecord"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Giang.hosme.DetailMedicalRecordList"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Giang.hosme.ChooseProfileList"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Giang.hosme.SpecialistList"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Giang.hosme.SpecialistDescription"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Giang.hosme.ResultsMedical"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Giang.hosme.NewList"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Giang.hosme.New4"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Giang.hosme.New3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Giang.hosme.New2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Giang.hosme.New1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Giang.hosme.MainNew"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Giang.hosme.EnterDate"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Giang.hosme.DoctorList"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Giang.hosme.DoctorDescription"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Giang.hosme.DetailMedicalRecord"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Giang.hosme.ChooseProfile"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Trân.loaddata"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Hân.hosme.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

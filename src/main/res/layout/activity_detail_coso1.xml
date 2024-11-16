@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Thảo.hosme.DetailCoso1">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/coso"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/imvBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/baseline_arrow_back_24" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Bệnh viện Y Đại Học Y Dược TP HCM"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="#B8C6CA"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="245dp"
+        app:layout_constraintTop_toBottomOf="@+id/textview">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/icon_locate"
+                    android:alpha="0.5"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cơ sở 215 Hồng Bàng, Phường 11, Quận 5, TP. Hồ Chí Minh"
+                    android:layout_marginStart="15dp"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Giới thiệu"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sự nghiêm túc, chuyên nghiệp và tận tâm trong cách làm việc của đội ngũ y tế tại Bệnh viện Đại học Y Dược TP.HCM cơ sở 1 đã xây dựng một độ uy tín và sự tin cậy vững chắc trong cộng đồng. Với hơn 27 năm kinh nghiệm trong lĩnh vực chăm sóc sức khỏe, Bệnh viện đã trở thành biểu tượng của chất lượng y tế không chỉ hàng đầu tại Thành phố Hồ Chí Minh mà còn trên toàn quốc."
+                android:textSize="16sp"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hướng dẫn đặt khám nhanh Bệnh Viện đại Học Y được Tp HCM"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Chọn cơ sở khám bệnh"
+                android:textSize="16sp"
+                android:paddingTop="10dp"
+                android:paddingStart="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Chọn chuyên khoa khám"
+                android:textSize="16sp"
+                android:paddingTop="10dp"
+                android:paddingStart="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Chọn chọn bác sĩ"
+                android:textSize="16sp"
+                android:paddingTop="10dp"
+                android:paddingStart="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Chọn lịch khám theo thời gian phù hợp"
+                android:textSize="16sp"
+                android:paddingTop="10dp"
+                android:paddingStart="20dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Chọn hình thức thanh toán và Xác nhận"
+                android:textSize="16sp"
+                android:paddingTop="10dp"
+                android:paddingStart="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="6. Nhận phiếu đặt khám thành công"
+                android:textSize="16sp"
+                android:paddingStart="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Đến khám đúng hẹn"
+                android:textSize="16sp"
+                android:paddingTop="10dp"
+                android:paddingStart="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tìm hiểu thông tin về Bệnh viện Đại Học Y Dược Tp HCM"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bệnh Viện Đại Học Y Dược Thành Phố Hồ Chí Minh - Cơ Sở 1, tọa lạc tại quận 5, Thành phố Hồ Chí Minh, là một trong những trung tâm y tế uy tín và đáng tin cậy nhất trong cộng đồng. Với tầm nhìn và phương châm Thấu hiểu nỗi đau – Niềm tin của bạn, bênh viện đã xây dựng một sứ mệnh chăm sóc sức khỏe với sự tận tâm và chất lượng cao."
+                android:textSize="16sp"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tổng quan bệnh viện"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bệnh Viện Đại Học Y Dược Thành phố Hồ Chí Minh có 3 cơ sở, với trụ sở chính nằm tại 215 Hồng Bàng, P.11, Q.5. Từ năm 2013, bệnh viện đã mở rộng tòa nhà 17 tầng để đáp ứng nhu cầu khám ngoại trú và điều trị nội trú tại bệnh viện. Đây là tòa nhà đạt tiêu chuẩn của bệnh viện quốc tế, mang lại môi trường khám chữa bệnh tiện nghi, xanh – sạch – đẹp, an ninh cho bệnh nhân và gia đình."
+                android:textSize="16sp"
+                android:paddingTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mỗi năm, bệnh viện tiếp nhận trung bình hơn 2 triệu lượt người khám ngoại trú (khoảng 7.000 người khám/ngày), điều trị nội trú cho khoảng 55.000 người, và thực hiện phẫu thuật cho khoảng 30.000 trường hợp."
+                android:textSize="16sp"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chất Lượng Và Tầm Nhìn"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bệnh Viện Đại Học Y Dược Thành phố Hồ Chí Minh luôn nỗ lực phát huy những giá trị cốt lõi bền vững, gồm tiên phong trong điều trị, nghiên cứu khoa học, đào tạo và quản trị; thấu hiểu nỗi đau về thể xác lẫn tinh thần của người bệnh để đưa ra những giải pháp điều trị tối ưu; giữ vững sự chuẩn mực của người thầy giáo – thầy thuốc; quản lý chất lượng và đảm bảo an toàn cho người bệnh và nhân viên y tế."
+                android:textSize="16sp"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phục Vụ Và Phát Triển"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Là một bệnh viện của trường đại học, Bệnh viện Đại Học Y Dược Thành phố Hồ Chí Minh không chỉ tập trung vào việc cải thiện chất lượng chuyên môn và dịch vụ y tế, mà còn mong muốn mỗi người dân khi đến khám chữa bệnh luôn nhận được chất lượng dịch vụ y tế tốt nhất và vượt sự mong đợi."
+                android:textSize="16sp"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mục tiêu sắp tới của bệnh viện là xây dựng hệ thống trung tâm chuyên khoa sâu đạt chuẩn quốc tế, áp dụng những kỹ thuật hiện đại trong khám và điều trị, đồng thời trở thành môi trường đào tạo nhân tài cho ngành Y tế và chuyển giao mô hình quản lý tới các bệnh viện có nhu cầu."
+                android:textSize="16sp"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chính Sách Chất Lượng"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chính sách chất lượng của Bệnh viện Đại Học Y Dược Thành phố Hồ Chí Minh được tóm gọn và định hình bởi bốn yếu tố quan trọng: An Toàn, Hiệu Quả, Cải Tiến Liên Tục, và Phát Triển Bền Vững. Bệnh viện cam kết đảm bảo an toàn cho người bệnh và nhân viên y tế, sử dụng các kỹ thuật hiện đại để cải thiện hiệu quả, luôn nâng cao chất lượng dịch vụ, và phát triển bền vững qua thời gian."
+                android:textSize="16sp"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hình ảnh"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingTop="10dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvcoso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

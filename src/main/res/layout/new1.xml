@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Giang.hosme.New1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/custom_5"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:id="@+id/imvBack"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_arrow_back" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Tin tức y tế"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_chuthapxanh" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ĐẦM ẤM TẾT CỔ TRUYỀN CHOL CHNAM THMAY 2024 TẠI BỆNH VIỆN ĐẠI HỌC Y DƯỢC TPHCM"
+                android:gravity="center"
+                android:textColor="@color/dard_blue"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Ngày 11/04/2024, Bệnh viện Đại học Y Dược TPHCM (BV ĐHYD TPHCM) đã tổ chức buổi họp mặt thân mật cho viên chức, người lao động có quốc tịch Campuchia và đồng bào Khmer nhân dịp Tết cổ truyền Chol Chnam Thmay 2024. Tham dự chương trình có TS BS. Phạm Văn Tấn - Phó Giám đốc BV ĐHYD TPHCM và ThS. Trần Văn Hùng - Trưởng phòng Công tác xã hội."
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:justificationMode="inter_word"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/new_1_1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Hòa trong không khí ấm cúng, TS BS. Phạm Văn Tấn đã chia sẻ những kỷ niệm về Tết Khmer thời thơ ấu, đồng thời gửi lời chúc sức khỏe đến các viên chức, người lao động Campuchia và đồng bào Khmer. “Cảm ơn các bạn đã luôn đồng hành và cống hiến tài năng vào sự phát triển của Bệnh viện trong những năm qua. Mong rằng, buổi họp này có thể giúp các bạn được an ủi phần nào khi không thể về nhà đón Tết cùng gia đình”."
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Niềm vui và xúc động hiện rõ trên khuôn mặt của các viên chức, người lao động khi nhận được sự quan tâm từ Ban lãnh đạo Bệnh viện. Chị Thạch Thị Sumaly - Công tác tại Khoa Khám bệnh bày tỏ: “Cảm ơn Bệnh viện đã luôn tổ chức buổi họp mặt cho viên chức, người lao động Khmer vào mỗi dịp Tết cổ truyền. Nhân dịp Tết Chol Chnam Thmay, kính chúc Quý lãnh đạo, Quý thầy cô cùng toàn thể Quý đồng nghiệp luôn dồi dào sức khỏe, vững tay nghề, giúp Bệnh viện ngày càng phát triển hơn”."
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Tiếp nối hoạt động mừng Tết cổ truyền Chol Chnam Thmay, Bệnh viện sẽ tổ chức thăm hỏi và tặng quà cho người bệnh có quốc tịch Campuchia và đồng bào Khmer đang điều trị nội trú trong 02 ngày, từ 14/04 đến 16/04/2024."
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Một số hình ảnh trong chương trình:"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:justificationMode="inter_word"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/new_1_2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="TS BS. Phạm Văn Tấn - Phó Giám đốc BV ĐHYD TPHCM chia sẻ trong buổi họp mặt."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/new_1_3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="ThS. Trần Văn Hùng - Trưởng phòng Công tác xã hội chia sẻ trong buổi họp mặt."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/new_1_4"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="TS BS. Phạm Văn Tấn, ThS. Trần Văn Hùng cùng các viên chức, người lao động khui rượu mừng năm mới."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/new_1_5"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Viên chức, người lao động nhận phong bao lì xì mừng năm mới từ TS BS. Phạm Văn Tấn."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

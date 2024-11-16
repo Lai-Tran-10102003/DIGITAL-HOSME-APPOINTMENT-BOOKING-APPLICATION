@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Giang.hosme.MainNew"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/custom_5"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:id="@+id/imvBack"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_arrow_back" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Tin tức y tế"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_chuthapxanh" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KỸ THUẬT KẾT HỢP VI NỘI SOI VÀ VI PHẪU ĐIỀU TRỊ CÁC U SÀN SỌ PHỨC TẠP"
+                android:gravity="center"
+                android:textColor="@color/dard_blue"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Kỹ thuật ít xâm lấn này được áp dụng tại Bệnh viện Đại học Y Dược TPHCM (BV ĐHYD TPHCM) đã đảm bảo tính an toàn, hồi phục nhanh cho người bệnh. Bệnh viện Đại học Y Dược TPHCM (BV ĐHYD TPHCM) vừa phẫu thuật thành công cho người bệnh Đ.T.Đ. (57 tuổi, ngụ tại Khánh Hòa). Người bệnh đã phẫu thuật lần vào đầu năm 2020 với chẩn đoán u tuyến yên xâm lấn sàn sọ giữa, xoang hang 2 bên, hố sọ sau. Người bệnh đã được phẫu thuật nội soi lấy hầu hết các tổn thương vùng sàn sọ giữa, giải phóng được các cấu trúc thần kinh bị chèn ép trước đó như dây thần kinh thị, thân não. Sau phẫu thuật, người bệnh được theo dõi và kiểm tra MRI liên tục. Gần đây khối u tiến triển, xâm lấn nhiều hơn vào hố sọ sau, xoang hang và hố thái dương 2 bên, các dây thần kinh sọ thấp gây các triệu chứng đau đầu, chóng mặt, ù tai. "
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Người bệnh được chỉ định phẫu thuật nội soi và vi phẫu để lấy toàn bộ tổn thương, đồng thời tái tạo phần sàn sọ do khối u xâm lấn. Ca mổ kéo dài 4 tiếng, sau đó người bệnh sẽ được theo dõi hậu phẫu để loại trừ các biến chứng nặng như: nhiễm trùng, viêm màng não, xuất huyết não, rò dịch não tuỷ… Sau phẫu thuật, người bệnh ổn định, tỉnh táo, triệu chứng đau đầu giảm nhiều, không có tổn thương thần kinh sọ, không có rò dịch não tuỷ qua mũi sau mổ. Người bệnh được xuất viện sau 7 ngày theo dõi."
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:justificationMode="inter_word"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/new_1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Các Bác sĩ khoa Ngoại Thần kinh BV ĐHYD TPHCM thực hiện Kỹ thuật kết hợp vi nội soi và vi phẫu điều trị các u sàn sọ phức tạp. "
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/new_2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="TS BS. Nguyễn Minh Anh - Trưởng khoa Ngoại Thần kinh chia sẻ tại chương trình đào tạo về Kỹ thuật kết hợp vi nội soi và vi phẫu điều trị các u sàn sọ phức tạp"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

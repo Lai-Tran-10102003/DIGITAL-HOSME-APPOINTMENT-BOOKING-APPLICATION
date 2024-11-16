@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Giang.hosme.New3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/custom_5"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:id="@+id/imvBack"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_arrow_back" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Tin tức y tế"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_chuthapxanh" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BỆNH VIỆN ĐẠI HỌC Y DƯỢC TPHCM TỔ CHỨC CHƯƠNG TRÌNH SINH HOẠT CỘNG ĐỒNG NGƯỜI BỆNH PARKINSON"
+                android:gravity="center"
+                android:textColor="@color/dard_blue"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Sáng ngày 07/04/2024, Bệnh viện Đại học Y Dược TPHCM (BV ĐHYD TPHCM) phối hợp cùng Công ty TNHH Medtronic Việt Nam và Công ty Cổ phần Dược phẩm Pharmacity tổ chức chương trình sinh hoạt cộng đồng người bệnh Parkinson với chủ đề “Những tiến bộ trong điều trị bệnh Parkinson thế giới và Việt Nam” tại Hội trường 3A của Bệnh viện, nhằm hưởng ứng ngày Parkinson Thế giới. "
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Chương trình đã thu hút hơn 200 người tham dự trực tiếp và hơn 1000 lượt theo dõi trực tuyến trên Fanpage của Bệnh viện."
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:justificationMode="inter_word"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/new_3_1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Một số hình ảnh trong chương trình:"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:justificationMode="inter_word"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/new_3_2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="ThS BS. Đặng Thị Huyền Thương chia sẻ về những tiến bộ trong điều trị bệnh Parkinson tại Việt Nam."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/new_3_3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Đạo diễn, Nhạc sĩ, Giảng viên Nguyễn Thanh Tùng (nghệ danh Tùng Mix) hướng dẫn phương pháp luyện đi bộ theo nhạc cho người bệnh Parkinson."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/new_3_4"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/new_3_5"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

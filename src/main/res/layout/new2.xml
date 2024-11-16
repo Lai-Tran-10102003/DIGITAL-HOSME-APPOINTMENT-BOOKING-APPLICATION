@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Giang.hosme.New2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/custom_5"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:id="@+id/imvBack"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_arrow_back" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Tin tức y tế"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_chuthapxanh" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CHUNG KẾT MISS HYPA 2024: ĐIỀU DƯỠNG PHẠM THỊ THU ĐÔNG ĐẾN TỪ BỆNH VIỆN ĐẠI HỌC Y DƯỢC TPHCM ĐẠT NGÔI VỊ CAO NHẤT"
+                android:gravity="center"
+                android:textColor="@color/dard_blue"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Tối 09/04/2024, tại Nhà văn hóa Thanh niên (phường Bến Nghé, quận 1) đã diễn ra đêm chung kết cuộc thi Miss HYPA 2024. Vượt qua 60 thí sinh đến từ 20 cơ sở y tế trên địa bàn, đại diện Bệnh viện Đại học Y Dược TPHCM (BV ĐHYD TPHCM), Điều dưỡng Phạm Thị Thu Đông – Khoa Tiết niệu đã xuất sắc trở thành Hoa khôi cuộc thi “Nét đẹp Thầy thuốc trẻ - Miss HYPA 2024”."
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="TS BS. Phan Minh Hoàng - Chủ tịch Hội Thầy thuốc trẻ TPHCM, Trưởng ban tổ chức cuộc thi cho biết, trong những năm qua, đội ngũ Thầy thuốc trẻ TPHCM không ngừng phấn đấu, phát triển, nâng cao y đức, nâng cao chuyên môn, tạo nên một khối đoàn kết vững chắc. Chính vì vậy, cuộc thi “Nét đẹp Thầy thuốc trẻ - Miss HYPA 2024” không chỉ là một sân chơi để phụ nữ trong ngành y tỏa sáng mà còn là một hành trình chia sẻ kiến thức chuyên môn, trang bị các kỹ năng sống và thực hiện các hoạt động thiện nguyện, vì cộng đồng."
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:justificationMode="inter_word"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/new_2_1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Một số hình ảnh trong chương trình:"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:justificationMode="inter_word"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/new_2_2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Điều dưỡng Phạm Thị Thu Đông trong phần thi Trang phục bản sắc."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/new_2_3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Điều dưỡng Vũ Thị Thanh Hằng trong phần thi Trang phục bản sắc."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/new_2_4"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Điều dưỡng Vũ Thị Thanh Hằng trong phần thi đồng phục bệnh viện và hô tên."
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/new_2_5"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Điều dưỡng Phạm Thị Thu Đông – Khoa Tiết niệu đã xuất sắc trở thành Hoa khôi cuộc thi “Nét đẹp Thầy thuốc trẻ - Miss HYPA 2024”"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

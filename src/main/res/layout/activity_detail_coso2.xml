@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Thảo.hosme.DetailCoso2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/imvcoso"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/imvBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/baseline_arrow_back_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#B8C6CA"
+            android:gravity="center"
+            android:text="Bệnh viện Y Đại Học Y Dược TP HCM"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:alpha="0.85"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/icon_locate"
+                    android:alpha="0.5"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cơ sở 201 Nguyễn Chí Thanh, Phường 12, Quận 5, TP. Hồ Chí Minh"
+                    android:layout_marginStart="15dp"
+                    android:textSize="16sp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Giới thiệu"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bệnh Viện Đại Học Y Dược Thành phố Hồ Chí Minh - Cơ Sở 2 không chỉ là nơi cung cấp dịch vụ y tế, mà còn là biểu tượng của sự phát triển và chăm sóc sức khỏe cho cộng đồng. Với sứ mệnh - Y Tế Cho Sự Sống, cơ sở này tiếp tục nỗ lực để đem lại niềm tin và sức khỏe cho mọi người."
+                android:paddingTop="10dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Được thành lập vào năm 1990, phòng khám tập thể ngoài giờ của Trường Trung Học Kỹ Thuật Y Tế Trung Ương 3 ra đời với mục đích cung cấp dịch vụ chăm sóc sức khỏe cho cán bộ giáo viên, nhằm cải thiện chất lượng cuộc sống và tăng cường hiệu suất công việc. Đây có lẽ là một trong những mô hình đầu tiên ở thành phố, được thành lập với sự hỗ trợ của Sở Y Tế Thành Phố Hồ Chí Minh và cũng là tiền thân của Bệnh Viện Đại Học Y Dược Thành phố Hồ Chí Minh - Cơ Sở 2"
+                android:paddingTop="10dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quá Trình Phát Triển"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ban đầu, phòng khám hợp tác với Bệnh Viện Chợ Rẫy, đặc biệt trong lĩnh vực tai mũi họng. Sự hợp tác này không chỉ tăng cường uy tín mà còn mở rộng dịch vụ để đáp ứng nhu cầu ngày càng tăng của bệnh nhân. Năm 1998, Trường Trung Học Kỹ Thuật Y Tế 3 sáp nhập vào Trường Đại Học Y Dược Thành phố Hồ Chí Minh, đánh dấu bước tiến quan trọng trong sự phát triển của cơ sở này."
+                android:textSize="16sp"
+                android:paddingTop="10dp"
+                android:paddingStart="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tìm hiểu thông tin về Bệnh viện Đại Học Y Dược Tp HCM"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bệnh Viện Đại Học Y Dược Thành Phố Hồ Chí Minh - Cơ Sở 1, tọa lạc tại quận 5, Thành phố Hồ Chí Minh, là một trong những trung tâm y tế uy tín và đáng tin cậy nhất trong cộng đồng. Với tầm nhìn và phương châm Thấu hiểu nỗi đau – Niềm tin của bạn, bênh viện đã xây dựng một sứ mệnh chăm sóc sức khỏe với sự tận tâm và chất lượng cao."
+                android:textSize="16sp"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hệ Thống Vật Chất và Đội Ngũ Y Bác Sĩ"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dù ban đầu với cơ sở vật chất và thiết bị sơ khai, nhưng nỗ lực không ngừng của đội ngũ y bác sĩ và nhân viên đã giúp cơ sở ngày càng hoàn thiện. Tính đến nay, Bệnh Viện Đại Học Y Dược Thành phố Hồ Chí Minh - Cơ Sở 2 sở hữu đội ngũ giáo sư bác sĩ hàng đầu, trang thiết bị hiện đại và sự tin tưởng từ cộng đồng."
+                android:textSize="16sp"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lãnh Đạo Nổi Bật Trong Quá Khứ Và Hiện Tại"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Các nhà lãnh đạo như GS Đỗ Đình Hồ, GS.TS.BS Trần Thiện Trung, và TS.BS Vũ Trí Thanh đã đưa Bệnh Viện Cơ Sở 2 đi lên một chặng đường thành công. Ngày nay, sự lãnh đạo của PGS.TS.BS Hà Mạnh Tuấn và PGS.TS.BS Trần Anh Tuấn tiếp tục giữ vững đẳng cấp và phát triển bền vững của cơ sở."
+                android:textSize="16sp"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dịch Vụ và Khoa Chuyên Sâu"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Với hơn 500 nhân viên, 30 phòng khám chuyên khoa, và 05 khoa lâm sàng, Bệnh Viện Cơ Sở 2 không chỉ đáp ứng mà còn vượt qua mong đợi của bệnh nhân. Các dịch vụ từ Khoa Tai Mũi Họng đến Sản - Phụ Khoa, từ Gây Mê Hồi Sức đến Khoa Khám Bệnh đều được thực hiện với chất lượng cao."
+                android:textSize="16sp"
+                android:paddingTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hình ảnh"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/blue"
+                android:paddingTop="10dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvcoso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

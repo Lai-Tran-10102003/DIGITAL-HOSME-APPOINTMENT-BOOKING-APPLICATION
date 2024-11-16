@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Giang.hosme.New4"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/custom_5"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:id="@+id/imvBack"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_arrow_back" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Tin tức y tế"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_chuthapxanh" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HỘI THI XÂY DỰNG KHÔNG GIAN VĂN HÓA HỒ CHÍ MINH"
+                android:gravity="center"
+                android:textColor="@color/dard_blue"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Sáng ngày 28/12, tại Đại học Y Dược TP. Hồ Chí Minh, Đảng ủy Khối cơ sở Bộ Y tế đã tổ chức hội thi giới thiệu về mô hình xây dựng “Không gian văn hóa Hồ Chí Minh” năm 2023. Đây là một hoạt động tuyên truyền thường xuyên nhằm giáo dục sâu rộng đến cán bộ, đảng viên, công chức, viên chức và người lao động không ngừng nâng cao hiệu quả công tác xây dựng đảng và phát triển văn hóa, con người Thành phố gắn với việc học tập và làm theo tư tưởng, đạo đức, phong cách Hồ Chí Minh. Từ đó phát triển thành phong trào thi đua gắn kết với việc phát huy giá trị của di sản văn hóa ở Thành phố để hình thành một tài sản tinh thần và vật chất có ý nghĩa chính trị xã hội quan trọng được mang tên Bác Hồ với các giá trị văn hóa đặc trưng của người dân, toàn thể cán bộ, đảng viên, công chức, người lao động tại từng cơ quan, đơn vị."
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:justificationMode="inter_word"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/new_4_1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Một số hình ảnh trong chương trình:"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:justificationMode="inter_word"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/new_4_2"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/new_4_3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Khai mạc hội thi, đồng chí Nguyễn Hoàng Lên - Phó Bí thư Thường trực Đảng ủy Khối cơ sở Bộ Y tế, Trưởng ban giám khảo Hội thi, đã chia sẻ niềm tin khi thấy được sự quan tâm của các cấp ủy về sự đầu tư, sự chuẩn bị chu đáo nội dung với nhiều ý tưởng từ các đơn vị tham gia hứa hẹn và kỳ vọng vào sự phát triển mạnh mẽ của mô hình xây dựng “Không gian văn hóa Hồ Chí Minh do Đảng ủy khối phát động sẽ mang lại nhiều ý nghĩa thiết thực cho cán bộ, đảng viên, công chức, viên chức và người lao động và cả cộng đồng."
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:justificationMode="inter_word"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/new_4_4"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/new_4_5"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
